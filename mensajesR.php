@@ -8,7 +8,7 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <title>CONTACTECNOS</title>
+    <title>MENSAJES_RECIBIDOS</title>
   </head>
   <body>
 
@@ -16,32 +16,45 @@
       <a class="btn btn-outline-warning" href="index.html" role="button">Inicio</a>
       <a class="btn btn-outline-info" href="tienda.php" role="button">Tienda</a>
       <a class="btn btn-outline-danger" href="contactenos.php" role="button">Contáctenos</a>
-      <a class="btn btn-outline-dark" href="iniciar.php" role="button">Ver Mensajes</a>
     </div>
 
     <br><br><br>
-    <div class="container"><h3>Contáctenos</h3></div>
+    <div class="container"><h3>Mensajes Recibidos</h3></div>
     <br><br>
   
 
     <div class="container">
-<h5>NOMBRES</h5>
-<input class="form-control" type="text" placeholder="Ingrese nombre y apellido" aria-label="default input example">
-<br><br>
-<h5>TELEFONO / CELULAR</h5>
-<input class="form-control" type="text" placeholder="Ingrese numero telefonico, debe contar con 8 digitos" aria-label="default input example">
-<br><br>
-<h5>CORREO ELECTRONICO</h5>
-<input class="form-control" type="text" placeholder="Ingrese correo electronico" aria-label="default input example">
-<br><br>
-<h5>MENSAJE</h5>
-<input class="form-control" type="text" placeholder="Ingrese su mensaje" aria-label="default input example">
-<br><br>
-<center>
-    <input type="submit" class="btn btn-info" value="Enviar Mensaje" name="enviar"> 
-</center>
-    </div>
-   
+    <table class="table table-dark table-hover">
+    <thead>
+    <tr>
+      <th scope="col">NOMBRES</th>
+      <th scope="col">TELEFONO / CELULAR</th>
+      <th scope="col">CORREO ELECTRONICO</th>
+      <th scope="col">MENSAJE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 
 
