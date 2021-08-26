@@ -13,218 +13,86 @@
   <body>
 
   <div class="btn-group w-100" role="group" aria-label="Basic example">
-      <a class="btn btn-outline-warning" href="servicios.php" role="button">Servicios</a>
+      <a class="btn btn-outline-warning" href="index.html" role="button">Inicio</a>
       <a class="btn btn-outline-info" href="tienda.php" role="button">Tienda</a>
       <a class="btn btn-outline-danger" href="contactenos.php" role="button">Contáctenos</a>
     </div>
 
-
-    <div class="col-md-3 col-sm-6">
-
     <br><br><br>
-    <div class="container"><h3>Productos/Servicios</h3></div>
+    <div class="container"><h3>Nuestras Tiendas</h3></div>
     <br><br>
-    <center>
-  <div class="container">
-  <div class="row align-items-start">
-    <div class="col">
-        <img src="image/sueter1.jpg" style="width: 50%;">
-      </div>
-    <div class="col">
-        <img src="image/sueter2.jpg" style="width: 50%;">
-</div>
-    <div class="col">
-        <img src="image/sueter3.jpg" style="width: 50%;">
-      </div>
-      <div class="col">
-        <img src="image/sueter3.jpg" style="width: 50%;">
-      </div>
-  </div>
-  <br>
-  <div class="row align-items-center">
-    <div class="col">
-       Sueter Rosado
-      </div>
-    <div class="col">
-      Sueter Gris Grande
-    </div>
-    <div class="col">
-      Sueter Verde Con Tirantes
-    </div>
-    <div class="col">
-      Sueter Verde Con Tirantes
-    </div>
-
-    <br>
-  </div>
-  <div class="row align-items-end">
-    <div class="col">
-        <b>Precio: Q150.00</b>
-        <br><br>
-        <button class="btn btn-info" type="submit">Más Información</button>
-       </div>
-    <div class="col">
-     <b>Precio: Q50.20</b>
-     <br><br>
-     <button class="btn btn-info" type="submit">Más Información</button>
-    </div>
-    <div class="col">
-      <b>Precio: Q140.12</b>
-      <br><br>
-      <button class="btn btn-info" type="submit">Más Información</button>
-    </div>
-    <div class="col">
-      <b>Precio: Q140.12</b>
-      <br><br>
-      <button class="btn btn-info" type="submit">Más Información</button>
-    </div>
-  </div>
-</div>
-<br><br>
-
-
-
-
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="container">
-    <div class="row align-items-start">
-      <div class="col">
-          <img src="image/sueter4.jpg" style="width: 50%;">
-        </div>
-      <div class="col">
-          <img src="image/sueter5.jpg" style="width: 50%;">
-  </div>
-      <div class="col">
-          <img src="image/sueter6.jpg" style="width: 50%;">
-        </div>
-        <div class="col">
-          <img src="image/sueter6.jpg" style="width: 50%;">
-        </div>
-    </div>
-    <br>
-    <div class="row align-items-center">
-      <div class="col">
-        Sueter Rojo Con Tirantes
-        </div>
-      <div class="col">
-        Sueter Gris Con Cuello Alto
-      </div>
-      <div class="col">
-        Sueter Gris Largo
-      </div>
-      <div class="col">
-        Sueter Gris Largo
-      </div>
-      <br>
-    </div>
-    <div class="row align-items-end">
-      <div class="col">
-          <b>Precio: Q200.20</b>
-          <br><br>
-          <button class="btn btn-info" type="submit">Más Información</button>
-         </div>
-      <div class="col">
-       <b>Precio: Q212.00</b>
-       <br><br>
-       <button class="btn btn-info" type="submit">Más Información</button>
-      </div>
-      <div class="col">
-        <b>Precio: Q547.00</b>
-        <br><br>
-        <button class="btn btn-info" type="submit">Más Información</button>
-      </div>
-      <div class="col">
-        <b>Precio: Q547.00</b>
-        <br><br>
-        <button class="btn btn-info" type="submit">Más Información</button>
-      </div>
-    </div>
-  </div>
-  <br><br>
-  <div class="container">
-    <div class="row align-items-start">
-      <div class="col">
-          <img src="image/buso1.jpg" style="width: 50%;">
-        </div>
-      <div class="col">
-          <img src="image/buso2.jpg" style="width: 50%;">
-  </div>
-      <div class="col">
-          <img src="image/buso3.jpg" style="width: 50%;">
-        </div>
-        <div class="col">
-          <img src="image/buso3.jpg" style="width: 50%;">
-        </div>
-    </div>
-    <br>
-    <div class="row align-items-center">
-      <div class="col">
-         Buso Pequeño 
-        </div>
-      <div class="col">
-        Buso Negro
-      </div>
-      <div class="col">
-        Buso Pequeño Con Flores En Las Mangas
-      </div>
-      <div class="col">
-        Buso Pequeño Con Flores En Las Mangas
-      </div>
-      <br>
-    </div>
-    <div class="row align-items-end">
-      <div class="col">
-          <b>Precio: Q145.21</b>
-          <br><br>
-          <button class="btn btn-info" type="submit">Más Información</button>
-         </div>
-      <div class="col">
-       <b>Precio: Q41.20</b>
-       <br><br>
-       <button class="btn btn-info" type="submit">Más Información</button>
-      </div>
-      <div class="col">
-        <b>Precio: Q180.00</b>
-        <br><br>
-        <button class="btn btn-info" type="submit">Más Información</button>
-      </div>
-      <div class="col">
-        <b>Precio: Q180.00</b>
-        <br><br>
-        <button class="btn btn-info" type="submit">Más Información</button>
-      </div>
-    </div>
-  </div>
   
-</center>
 
-<br><br><br><br><br><br><br><br>
-<table class="table table-success table-striped">
+
+    
+    <div class="container">
+    <div class="row">
+    <div class="col-6">
+    <img src="imagenes/tie1.jpg"  height="300px" width="550px">
+    </div>
+    <div class="col-6">
+    <h3>Tienda Central</h3>
+    <br/>
+    <p>
+    <ul>
+<li>TELEFONO: 45748596 </li>
+<li>DIRECCIÓN: 5 calle zona 12 Mixco</li>
+<li>CORREO ELECTRONICO: tiendacentral1.@gmail.com </li>
+<li>HORARIO DE ATENCION: De 9:00 am A 7:30 pm</li>
+</ul>
+</P>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+<div class="container">
+    <div class="row">
+    <div class="col-6">
+    <h3>Tienda Del Norte</h3> 
+    <br/>
+    <p>
+    <ul>
+<li>TELEFONO: 78451263 </li>
+<li>DIRECCIÓN: 8 calle zona 21 San Miguel Petapa</li>
+<li>CORREO ELECTRONICO: tenda_norte_1.@gmail.com </li>
+<li>HORARIO DE ATENCION: De 8:00 am A 6:30 pm</li>
+</ul>
+</P>
+    </div>
+    <div class="col-6">
+    <img src="imagenes/tie3.jpg"  height="300px" width="550px">
+    </div>
+  </div>
+</div>
+<br><br><br>
+<div class="container">
+    <div class="row">
+    <div class="col-6">
+    <img src="imagenes/tie2.jpg"  height="300px" width="550px">
+    </div>
+    <div class="col-6">
+    <h3>Tienda Del Sur</h3>
+    <br/>
+    <p>
+    <ul>
+<li>TELEFONO: 76493512 </li>
+<li>DIRECCIÓN: 4 calle zona 5 San Rosa</li>
+<li>CORREO ELECTRONICO: tienda1sur.@gmail.com 3</li>
+<li>HORARIO DE ATENCION: De 10:00 am A 9:00 pm</li>
+</ul>
+</P>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<br><br><br>
+<table class="table table-info table-striped">
   <thead>
     <tr>
       <th scope="col">PBX:123456789   DIRECCIÓN: 5 CALLE ZONA 12 MIXCO</th>
