@@ -7,7 +7,7 @@
     
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap.css">
+    <link  rel="stylesheet" href="diseño.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>USARIO</title>
@@ -27,7 +27,7 @@
       <br><br><br>
     <center> 
         <div class="card" style="width: 18rem;">
-          <img src="imagenes/logo1.png" class="card-img-top" alt="...">
+          <img src="imagenes/logo2.png" class="card-img-top" alt="...">
           <div class="card-body">
             
         <form action="validar.php" method="POST">
@@ -43,7 +43,7 @@
           </div>
     
           <center>
-            <input type="submit" value="Enviar" class="btn btn-dark">
+            <input type="submit" value="Aceptar" class="btn btn-dark">
           </center>
         
       </form>
@@ -53,12 +53,12 @@
     </center>
 
     <br><br><br>
-<table class="table table-info table-striped">
+    <table class="table table-dark table-striped" style="text-align:center;">
   <thead>
     <tr>
-      <th scope="col">PBX:123456789   DIRECCIÓN: 5 CALLE ZONA 12 MIXCO</th>
-      <th scope="col">CARNÉ: 2020-40166</th>
-      <th scope="col">NOMBRE: NAYELY BANESSA BARRIENTOS DE LEÓN</th>
+      <th  scope="col" align="center">PBX:59777301 DIRECCIÓN:3Ave. 0-007 Col.Tamarindos 2 ZONA 21 </th>
+      <th align="center" scope="col">CARNÉ: 2020-40166</th>
+       <th scope="col" align="center">NOMBRE: NAYELY BANESSA BARRIENTOS DE LEÓN</th>
     </tr>
   </thead>
 </table>

@@ -10,15 +10,15 @@ if ($user == "" and $pass == "") {
     echo '</script>';
 
     $contador++;
-}elseif ($user == "admin" and $pass == "mensaje"){
+}elseif ($user == "admin" and $pass == "mensajes"){
     header("Location:mensajesR.php");
-}elseif ($user !== "admin" or $pass !== "mensaje") {
+}elseif ($user !== "admin" or $pass !== "mensajes") {
     echo '<script language="javascript">';
     echo 'alert("Usuario y/o contraseña incorrectas")';
     echo '</script>';
     $contador++;
 }
-
+    
 if ($contador == 3) {
     echo '<script language="javascript">';
     echo 'alert("Adios")';
