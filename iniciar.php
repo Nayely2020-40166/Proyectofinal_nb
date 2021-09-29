@@ -14,12 +14,31 @@
   </head>
   <body>
 
-  <div class="btn-group w-100" role="group" aria-label="Basic example">
-      <a class="btn btn-outline-warning" href="index.html" role="button">Inicio</a>
-      <a class="btn btn-outline-info" href="tienda.php" role="button">Tienda</a>
-      <a class="btn btn-outline-danger" href="contactenos.php" role="button">Contáctenos</a>
-    </div>
+  
+  <a class="btn btn-info" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  MENÚ
+</a>
 
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">BIENVENIDOS</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Aqui podra desplazarse para poder ver mas sobre nuestros productos y tiendas 😊✨
+    </div><br><br>
+    <div class="d-grid gap-2">
+    <a class="btn btn-info btn-lg" href="index.html" type="button">INICIO</a> <br><br>
+    <a class="btn btn-warning btn-lg" href="tienda.php" type="button">TIENDAS</a><br><br>
+    <a class="btn btn-danger btn-lg" href="contactenos.php" type="button">CONTACTENOS</a>
+    <br></br>
+       
+  
+    </div>
+  </div>
+</div>
 
 
 
@@ -51,6 +70,10 @@
       </div>
       </div>
     </center>
+
+
+    
+
 
     <br><br><br>
     <table class="table table-dark table-striped" style="text-align:center;">

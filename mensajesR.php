@@ -33,6 +33,7 @@
       <th scope="col">TELEFONO / CELULA</th>
       <th scope="col">CORREO ELECTRONICO</th>
       <th scope="col">MENSAJE</th>
+      <th scope="col">ELIMINAR MENSAJE</th>
     </tr>
   </thead>
   </tbody>
@@ -47,6 +48,10 @@
                   <td> <?php echo $row ['telefono'] ?> </td>
                   <td> <?php echo $row ['correo'] ?> </td>
                   <td> <?php echo $row ['mensaje'] ?> </td>
+
+                  <td>
+              <center><a href="eliminar.php?id=<?php echo $row ['nomensaje'] ?>" class="btn btn-danger"><img  src="imagenes/eliminar.png" width="30"></a></center>    
+                  </td>
               
                 
                   </tr>
